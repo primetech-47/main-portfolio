@@ -485,7 +485,7 @@ html{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgb(0, 0, 0,  .6);
+    
 }
 .par-background-mod{
     background: url(./img/ad-2.jpg);
@@ -623,7 +623,7 @@ html{
     width: 100%;
 }
 .single-label input{
-    background: none;
+    background: black;
     border: none;
     outline: none;
     padding: 2rem 0;
@@ -634,6 +634,7 @@ html{
 }
 ::placeholder{
     text-transform: capitalize;
+    background: black;
 }
 .contact-form form textarea{
     background: transparent;
@@ -681,18 +682,7 @@ html{
     font-size: 16px;
 }
 
-@-webkit-keyframes autofill {
-    0%,100% {
-        color: gray;
-        background: transparent;
-    }
-}
 
-input:-webkit-autofill {
-    -webkit-animation-delay: 1s; /* Safari support - any positive time runs instantly */
-    -webkit-animation-name: autofill;
-    -webkit-animation-fill-mode: both;
-}
 @media screen and (max-width:769px) {
      .label-wrapper{ 
          flex-direction: column;
